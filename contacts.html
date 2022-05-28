@@ -2,35 +2,28 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <title>&#128062; Мир животных</title>
 </head>
 
-<body>
-    <p><b>МЕНЮ</b></p>
-    <ul type="square">
-        <li>
-            <b><a href="main.html">Главная</a></b>
-        </li>
-        <li>
-            <b><a href="catalog.html">Каталог</a></b>
-        </li>
-        <li>
-            <b><a href="contacts.html">Контакты</a></b>
-        </li>
-    </ul>
+<body style type="style.css">
+    <p><b id="menu">МЕНЮ</b></p>
+    <a class="menu" href="main.html">Главная</a><br>
+    <a class="menu" href="catalog.html">Каталог</a><br>
+    <a class="menu" href="contacts.html">Контакты</a><br>
     <hr>
     <form action="">
         <fieldset>
             <legend>Напишите нам</legend>
-            <p><input type="text" size="30" placeholder="ФИО"></p>
-            <p><input type="text" size="30" placeholder="Телефон"></p>
-            <p><input type="email" size="30" placeholder="E-mail"></p>
+            <p><input class="short" type="text" size="30" placeholder="ФИО"></p>
+            <p><input class="short" type="text" size="30" placeholder="Телефон"></p>
+            <p><input class="short" type="email" size="30" placeholder="E-mail"></p>
             <p>Согласны на e-mail рассылку?</p>
             <p><input type="radio" name="1">да&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="1">нет</p>
             <p><input type="date"></p>
             <p>Введите комментарий:</p>
-            <p><textarea name="Комментарий" id="3" cols="30" rows="5"></textarea></p>
+            <p><textarea class="long" name="Комментарий" id="3"></textarea></p>
             <p><input type="submit"
                     value="Отправить">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <input type="reset" value="Отменить">
